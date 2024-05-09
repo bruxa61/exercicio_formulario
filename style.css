@@ -1,0 +1,94 @@
+form {
+    background-color: rgb(238, 118, 138);
+    text-align: center;
+    width: 100%; /* largura */
+    max-width: 500px; /* para ficar quadradinho o background */
+    margin: 0 auto; /* para ficar tudo no centro da página */
+    border-radius: 20px;
+    padding-bottom: 20px; /* aumenta o quadrado em baixo  */
+    padding-top: 20px; /* aumenta o quadrado em cima  */
+    margin-top: 70px; /* deixa o quadradinho centralizado na pág */
+}
+
+h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px #000000
+}
+
+.título2 {
+    font-size: 50%;
+    /* border-bottom: 3px solid black; */
+    padding-bottom: 18px;
+    position: relative;
+}
+
+.título2::after {
+    content: "";
+    display: block;
+    width: 420px; /* tamanho da linha */
+    border-bottom: 3px solid #ffc3e2;
+    margin-left: 37px; /*movimenta a linha (direita/esquerda) */
+    position: absolute;
+    bottom: 0; 
+  }
+
+.botao {
+    background-color: #df3962;
+    color: white; 
+    width: 100px; /* largura */
+    height: 40px; /* altura */
+    border-radius: 7px; /* borda arredondada */
+    font-weight: bold; /* negrito */
+    border-color: #df3962;
+    position: relative;
+    margin-left: -150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* .rotulos {
+    color: white;
+    display: inline-block; 
+    padding-top: 25px;
+    text-shadow: 2px 2px 5px #000000;
+    display: flex;
+    margin-left: 50px;
+} */
+
+label{
+    color: white;
+    padding-top: 25px;
+    text-shadow: 2px 2px 5px #000000;
+    text-align: left;
+}
+
+.entrada {
+    background-color: #ffd3f0;
+    box-shadow: 2px 2px 5px #57013d;
+    border-color: #ffd3f0;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.opcoes {
+    margin-left: -14px;
+}
+
+.opcoes2 {
+    background-color: #ffd3f0;
+    box-shadow: 2px 2px 5px #57013d;
+    border-color: #ffd3f0;
+    border-radius: 5px;
+    height: 30px;
+    width: 306px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.mensagem {
+    margin-left: -28px;
+}
